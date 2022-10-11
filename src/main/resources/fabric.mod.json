@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "u_micro_lib",
+  "version": "${version}",
+  "name": "U Micro Lib",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/mol_test/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.stuff_stuffs.u_micro_lib.internal.common.UMicroLibCommon"
+    ],
+    "client": [
+      "io.github.stuff_stuffs.u_micro_lib.internal.client.UMicroLibClient"
+    ]
+  },
+  "mixins": [
+    "u_micro_lib.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19.2"
+  }
+}
