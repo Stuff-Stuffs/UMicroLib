@@ -30,4 +30,5 @@ workspace/
 # macOS
 *.DS_Store
 # Project exclude paths
-/output/
+output/
+logs/
